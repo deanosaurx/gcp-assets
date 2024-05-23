@@ -87,7 +87,7 @@ func getAssets() ([]Resource, error) {
             Name:       name,
             AssetType:  resourceResponse.AssetType,
             Project:    "deans-playground",
-            ResourceID: resourceResponse.AssetType, // Assuming AssetType as ResourceID for simplicity
+            ResourceID: resourceResponse.AssetType,
         }
         resources = append(resources, resource)
     }
